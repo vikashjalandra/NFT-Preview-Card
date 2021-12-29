@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+}
+#card{
+    flex-direction: column;
+    width: 311px;
+    color: white;
+   background-color: hsl(216, 50%, 16%);
+    /* height: 400px; */
+    padding: 25px;
+    border-radius: 15px;
+    margin: 70px 0px 65px 0px;
+}
+#equ{
+    width:100%;
+    /* height: 270px; */
+    border-radius: 10px;
+}
+
+.equ{
+    position: relative;
+    width: 311px;
+    height: 311px;
+}
+
+.equ #view{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#view:hover{
+    opacity: 100;
+}
+h1{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+h1 a:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+#details{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+.price img{
+    height: 18px;
+    margin-right: 7px;
+}
+
+
+#time{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    display: flex;
+}
+
+#time img{
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+#divide{
+    height: 1px;
+    width: 100%;
+    background-color: hsl(215, 51%, 70%);
+    margin-top: 30px;
+}
+
+#avatar{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+#hero{
+    width: 33px;
+    height: 33px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#hero img{
+    width: 31px;
+    height: 31px;
+    margin: auto;
+}
+#create{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#creation{
+    color: hsl(215, 51%, 70%);
+}
+
+#name{
+    font-weight: 400;
+}
+
+#name a:hover{
+    color:hsl(178, 100%, 50%)
+}
